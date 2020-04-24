@@ -10,6 +10,7 @@
       integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
     <div class="status-bar">
@@ -36,7 +37,7 @@
     </header>
     <main class="friends">
       <header class="friends__header">
-        <div class="friends__friend friend friend--lg">
+        <div class="friends__friend friend">
           <div class="friend__column">
             <img
               src="images/avatar.jpg"
@@ -58,11 +59,7 @@
         <h5 class="friends__title">plus friends</h5>
         <div class="friends__friend friend">
           <div class="friend__column">
-            <img
-              src="images/avatar.jpg"
-              alt=""
-              class="g-avatar friend__avatar"
-            />
+            <img src="images/avatar.jpg" alt="" class="friend__avatar" />
             <div class="friend__content">
               <span class="friend__name">
                 Plus Friend
@@ -71,15 +68,11 @@
           </div>
         </div>
       </div>
-      <ul class="firends__list">
+      <ul class="friends__list">
         <h5 class="friends__title">Friends 14</h5>
         <li class="friends__friend friend friend--lg">
-          <div class="friend column">
-            <img
-              src="images/avatar.jpg"
-              alt=""
-              class="g-avatar friend__avatar"
-            />
+          <div class="friend__column">
+            <img src="images/avatar.jpg" alt="" class="friend__avatar" />
             <div class="friend__content">
               <span class="friend__name">
                 Nicolas serrano
@@ -91,8 +84,10 @@
           </div>
           <div class="friend__column">
             <div class="friend__now-listening">
-              <span>FTISLAND (FT nomadcoders)</span>
-              <i class="fas fa-play"></i>
+              <span>
+                FTISLAND (FT nomadcoders)
+                <i class="fas fa-play"></i>
+              </span>
             </div>
           </div>
         </li>
@@ -123,5 +118,8 @@
         </li>
       </ul>
     </nav>
+    <div class="bigScreen">
+      <span class="bigScreen__text">Please make your screen small!</span>
+    </div>
   </body>
 </html>
